@@ -1,0 +1,10 @@
+> hist(Global_reactive_power, col = "2")
+> hist(Global_reactive_power, col = "2")
+> plot(Global_reactive_power, Date)
+> plot(Date, Global_reactive_power)
+> plot(Sub_metering_1, Sub_metering_2, Sub_metering_3, Global_reactive_power)
+Error in plot.window(...) : invalid 'xlim' value
+> pairs(~Sub_metering_1 + Sub_metering_2 + Sub_metering_3)
+> plot(Sub_metering_1)
+> plot(Sub_metering_2)
+> plot(Sub_metering_3)
